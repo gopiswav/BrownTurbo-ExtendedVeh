@@ -49,3 +49,4 @@ void ApplyCustomHandling(int vehicleModelId, float mass, float turnMass, float e
 Saat menerima packet ID 220 dari server open.mp:
 1. Dekode data serialisasi JSON/biner yang memuat properti `handling`, `turboLevel`, dan `soundOverride`.
 2. Terapkan konfigurasi ke `CVehicle` target di memori `libGTASA.so`.
+
